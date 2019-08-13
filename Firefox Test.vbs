@@ -34,6 +34,8 @@ wShell.Run "Screenshot_test_2.bat"
 
 Wscript.Sleep 45000
 
+WShell.SendKeys "{F11}"
+
 wShell.Run "Git_Push.bat"
 
 Wscript.Sleep 20000
