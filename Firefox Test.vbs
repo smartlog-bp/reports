@@ -1,3 +1,11 @@
+' initializing
+myDate = Now
+myFormat = "MM/dd/yyyy"
+
+' formatting the date 
+Set sb = createobject("System.Text.StringBuilder")
+sb.AppendFormat "{0:" & myFormat & "}", myDate
+
 ' Cria os objetos a serem manipulados
 Dim wShell
 Set wShell = CreateObject("WScript.Shell")
@@ -40,7 +48,7 @@ Wscript.Sleep 20000
 
 'wShell.Run "Bot_Envio_Geral.bat"
 
-wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Densidade&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade.png?raw=true=TIMESTAMP"
+wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Densidade&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade.png?raw=true=sb"
 'Wscript.Sleep 8000
 wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Transporte_TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Transporte_TRP.png?raw=true=TIMESTAMP"
 'Wscript.Sleep 8000
