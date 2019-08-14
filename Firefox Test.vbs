@@ -42,7 +42,7 @@ Wscript.Sleep 20000
 
 ' initializing date
 myDate = Now
-myFormat = "MM/dd/yyyy"
+myFormat = "dd/MM/yyyy"
 
 ' formatting the date 
 Set sb = createobject("System.Text.StringBuilder")
