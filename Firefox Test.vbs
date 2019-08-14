@@ -50,7 +50,8 @@ Set sb = createobject("System.Text.StringBuilder")
 sb.AppendFormat "{0:" & myFormat & "}", myDate
 
 Dim url
-Set url= "https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Densidade&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade.png?raw=true?v="&sb
+Set url = createobject("https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Densidade&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade.png?raw=true?v="&sb)
+
 
 wShell.Run "firefox.exe url"
 'Wscript.Sleep 8000
