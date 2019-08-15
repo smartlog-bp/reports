@@ -9,7 +9,7 @@ wShell.Run "firefox.exe http://simplefarm.bpbio.com.br/Login"
 'wShell.sendkeys "{ENTER}"
 
 ' Tempo que ele deve esperar até o site abrir (30 segundos)
-Wscript.Sleep 30000
+Wscript.Sleep 15000
 
 ' Preciona TAB ate chegar no usuário e senha
 
@@ -32,7 +32,7 @@ WShell.SendKeys "{F11}"
 
 wShell.Run "Screenshot_test_2.bat"
 
-Wscript.Sleep 45000
+Wscript.Sleep 50000
 
 wShell.Run "Git_Push.bat"
 
