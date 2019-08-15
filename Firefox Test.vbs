@@ -1,6 +1,7 @@
 ' Cria os objetos a serem manipulados
 Dim wShell
 Set wShell = CreateObject("WScript.Shell")
+wShell.CurrentDirectory = "C:\Users\hofdpf\reports"
 
 ' Abre o site no navegador
 wShell.Run "firefox.exe http://simplefarm.bpbio.com.br/Login"
@@ -36,7 +37,7 @@ Wscript.Sleep 50000
 
 wShell.Run "Screenshot_6_Transporte.bat"
 
-Wscript.Sleep 55000
+Wscript.Sleep 65000
 
 wShell.Run "Git_Push.bat"
 
@@ -69,5 +70,8 @@ wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNo
 wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Hora_a_Hora_ITB&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITB.png?raw=true=TIMESTAMP"
 
 WShell.SendKeys "{F11}"
+
+Wscript.Sleep 8000
+wShell.Run "Task_Kill.bat"
 
 'wShell.Run "C:\Users\hofdpf\Documents\Telegram\1 Teste\Screenshot Test 2.bat"
