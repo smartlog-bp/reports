@@ -30,7 +30,7 @@ WShell.SendKeys "{ENTER}"
 
 WShell.SendKeys "{F11}"
 
-wShell.Run "Screenshot_test_2.bat"
+wShell.Run "Screenshot_6_Densidade.bat"
 
 Wscript.Sleep 50000
 
