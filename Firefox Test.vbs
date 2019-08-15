@@ -36,7 +36,7 @@ Wscript.Sleep 50000
 
 wShell.Run "Screenshot_6_Transporte.bat"
 
-Wscript.Sleep 50000
+Wscript.Sleep 55000
 
 wShell.Run "Git_Push.bat"
 
