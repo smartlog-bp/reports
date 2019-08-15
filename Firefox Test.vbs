@@ -34,6 +34,10 @@ wShell.Run "Screenshot_6_Densidade.bat"
 
 Wscript.Sleep 50000
 
+wShell.Run "Screenshot_6_Transporte.bat"
+
+Wscript.Sleep 50000
+
 wShell.Run "Git_Push.bat"
 
 Wscript.Sleep 20000
@@ -60,7 +64,7 @@ myDate6 = Second(Now)
 
 wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Densidade&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Wscript.Sleep 8000
-wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Transporte_TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Transporte_TRP.png?raw=true=TIMESTAMP"
+wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Transporte%20TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Transporte_TRP.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Wscript.Sleep 8000
 wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Hora_a_Hora_ITB&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITB.png?raw=true=TIMESTAMP"
 
