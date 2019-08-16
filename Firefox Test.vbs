@@ -41,7 +41,7 @@ Wscript.Sleep 65000
 
 wShell.Run "Screenshot_6_Hora_Hora.bat"
 
-Wscript.Sleep 50000
+Wscript.Sleep 65000
 
 wShell.Run "Git_Push.bat"
 
@@ -75,7 +75,7 @@ wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNo
 
 WShell.SendKeys "{F11}"
 
-Wscript.Sleep 8000
+Wscript.Sleep 15000
 wShell.Run "Task_Kill.bat"
 
 'wShell.Run "C:\Users\hofdpf\Documents\Telegram\1 Teste\Screenshot Test 2.bat"
