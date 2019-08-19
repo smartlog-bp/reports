@@ -41,7 +41,11 @@ Wscript.Sleep 65000
 
 wShell.Run "Screenshot_6_Hora_Hora_A.bat"
 
-Wscript.Sleep 40000
+Wscript.Sleep 45000
+
+wShell.Run "Screenshot_6_Caminhoes_Atraso.bat"
+
+Wscript.Sleep 20000
 
 wShell.Run "Git_Push.bat"
 
