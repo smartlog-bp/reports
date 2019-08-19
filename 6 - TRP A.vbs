@@ -31,7 +31,7 @@ WShell.SendKeys "{ENTER}"
 
 WShell.SendKeys "{F11}"
 
-wShell.Run "Screenshot_6_DensidadeB.bat"
+wShell.Run "Screenshot_6_Densidade.bat"
 
 Wscript.Sleep 50000
 
@@ -75,7 +75,7 @@ wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNo
 
 WShell.SendKeys "{F11}"
 
-Wscript.Sleep 15000
-wShell.Run "Task_Kill.bat"
+'Wscript.Sleep 15000
+'wShell.Run "Task_Kill.bat"
 
 'wShell.Run "C:\Users\hofdpf\Documents\Telegram\1 Teste\Screenshot Test 2.bat"
