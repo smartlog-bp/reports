@@ -10,14 +10,14 @@ wShell.Run "firefox.exe http://simplefarm.bpbio.com.br/Login"
 'wShell.sendkeys "{ENTER}"
 
 ' Tempo que ele deve esperar até o site abrir (30 segundos)
-Wscript.Sleep 15000
+Wscript.Sleep 20000
 
-' Preciona TAB ate chegar no usuário e senha
+' Pressiona TAB até chegar no usuário e senha
 
 'wshell.SendKeys "{TAB}"
 
 
-' Inseri o usuário
+' Insere o usuário
 WShell.SendKeys "hofdpf"
 
 ' Preciona tab pra colocar a senha
