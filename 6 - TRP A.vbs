@@ -4,7 +4,7 @@
 
 nMinutes = 0
 nSeconds = 5
-sMessage = "<font color=white size=+5><b>PARE! O Bot come√ßar√° em</b></font>"
+sMessage = "<font color=white size=+5><b>PARE! O Bot comeÁar· em</b></font>"
 
 ' Open a chromeless window with message
 with HTABox("red", 600, 700, 600, 200)
@@ -128,7 +128,7 @@ Wscript.Sleep 45000
 
 wShell.Run "Screenshot_6_Caminhoes_Atraso.bat"
 
-Wscript.Sleep 20000
+Wscript.Sleep 35000
 
 wShell.Run "Git_Push.bat"
 
