@@ -76,6 +76,8 @@ wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNo
 wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Transporte%20TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Transporte_TRP.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora TRP Turno A
 wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Hora%20a%20Hora%20TRP%20Turno%20A&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_TRP.png?=" & myDate5 & myDate4 & myDate & myDate2
+'Envio Caminhões em Atraso TRP
+wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Caminhoes%20em%20Atraso%20TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Atraso_TRP.png?=" & myDate5 & myDate4 & myDate & myDate2
 
 WShell.SendKeys "{F11}"
 
