@@ -85,13 +85,14 @@ Set wShell = CreateObject("WScript.Shell")
 wShell.CurrentDirectory = "C:\Users\soghwu\Desktop\reports"
 
 ' Abre o site no navegador
-wShell.Run "chrome.exe http://simplefarm.bpbio.com.br/Login"
+wShell.Run "abrir.vbs"
+'wShell.Run "chrome.exe http://simplefarm.bpbio.com.br/Login"
 'Wscript.Sleep 400
 'wShell.sendkeys "http://simplefarm.bpbio.com.br/Login"
 'wShell.sendkeys "{ENTER}"
 
-' Tempo que ele deve esperar até o site abrir (30 segundos)
-Wscript.Sleep 30000
+' Tempo que ele deve esperar até o site abrir (15 segundos)
+Wscript.Sleep 15000
 
 ' Pressiona TAB até chegar no usuário e senha
 
