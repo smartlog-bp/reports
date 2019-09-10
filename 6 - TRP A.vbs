@@ -82,7 +82,7 @@ Dim IE, HTA, sCmd, nRnd
 ' Cria os objetos a serem manipulados
 Dim wShell
 Set wShell = CreateObject("WScript.Shell")
-wShell.CurrentDirectory = "C:\Users\soghwu\Desktop\reports"
+wShell.CurrentDirectory = "D:\Apps\BOT_SIMPLEVIEW\reports"
 
 ' Abre o site no navegador
 wShell.Run "abrir.vbs"
