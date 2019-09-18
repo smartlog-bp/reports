@@ -91,8 +91,8 @@ wShell.Run "abrir.vbs"
 'wShell.sendkeys "http://simplefarm.bpbio.com.br/Login"
 'wShell.sendkeys "{ENTER}"
 
-' Tempo que ele deve esperar até o site abrir (30 segundos)
-Wscript.Sleep 30000
+' Tempo que ele deve esperar até o site abrir (10 segundos)
+Wscript.Sleep 10000
 
 ' Pressiona TAB até chegar no usuário e senha
 
@@ -117,31 +117,31 @@ Wscript.Sleep 5000
 
 wShell.Run "Screenshot_6_Densidade.bat"
 
-Wscript.Sleep 45000
+Wscript.Sleep 21000
 
 wShell.Run "Screenshot_6_Transporte.bat"
 
-Wscript.Sleep 45000
+Wscript.Sleep 26000
 
 wShell.Run "Screenshot_6_Hora_Hora_C.bat"
 
-Wscript.Sleep 45000
+Wscript.Sleep 32000
 
 wShell.Run "Screenshot_6_Hora_Hora_A.bat"
 
-Wscript.Sleep 45000
+Wscript.Sleep 32000
 
 wShell.Run "Screenshot_6_Hora_Hora_B.bat"
 
-Wscript.Sleep 45000
+Wscript.Sleep 32000
 
 wShell.Run "Screenshot_6_Caminhoes_Atraso.bat"
 
-Wscript.Sleep 35000
+Wscript.Sleep 16000
 
 wShell.Run "Git_Push.bat"
 
-Wscript.Sleep 20000
+Wscript.Sleep 12000
 
 'wShell.Run "Bot_Envio_Geral.bat"
 
