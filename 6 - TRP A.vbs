@@ -117,19 +117,19 @@ Wscript.Sleep 5000
 
 wShell.Run "Screenshot_6_Densidade.bat"
 
-Wscript.Sleep 50000
+Wscript.Sleep 45000
 
 wShell.Run "Screenshot_6_Transporte.bat"
 
-Wscript.Sleep 65000
+Wscript.Sleep 45000
 
 wShell.Run "Screenshot_6_Hora_Hora_C.bat"
 
-Wscript.Sleep 65000
+Wscript.Sleep 45000
 
 wShell.Run "Screenshot_6_Hora_Hora_A.bat"
 
-Wscript.Sleep 65000
+Wscript.Sleep 45000
 
 wShell.Run "Screenshot_6_Hora_Hora_B.bat"
 
