@@ -167,7 +167,7 @@ wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH
 'Envio Transporte ITT
 wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Transporte%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Transporte_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora ITT Turno C
-wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Hora%20a%20ITT%20TRP%20Turno%20C&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT_C.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Hora%20a%20Hora%20ITT%20Turno%20C&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT_C.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora ITT Turno A
 wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Hora%20a%20Hora%20ITT%20Turno%20A&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora ITT Turno B
