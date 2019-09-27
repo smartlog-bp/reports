@@ -160,20 +160,20 @@ myDate6 = Second(Now)
 'sb.AppendFormat "{0:" & myFormat & "}", myDate
 
 'Dim url
-'Set url = createobject("https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Densidade&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade.png?raw=true?v="&sb)
+'Set url = createobject("https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Densidade&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade.png?raw=true?v="&sb)
 
 'Envio Densidade ITT
-wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Densidade%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Densidade%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Transporte ITT
-wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Transporte%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Transporte_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Transporte%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Transporte_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora ITT Turno C
-wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Hora%20a%20Hora%20ITT%20Turno%20C&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT_C.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Hora%20a%20Hora%20ITT%20Turno%20C&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT_C.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora ITT Turno A
-wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Hora%20a%20Hora%20ITT%20Turno%20A&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Hora%20a%20Hora%20ITT%20Turno%20A&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora ITT Turno B
-wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Hora%20a%20Hora%20ITT%20Turno%20B&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT_B.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Hora%20a%20Hora%20ITT%20Turno%20B&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT_B.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Caminhões em Atraso ITT
-wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001406043546&caption=Caminhoes%20em%20Atraso%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Atraso_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Caminhoes%20em%20Atraso%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Atraso_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
 
 WShell.SendKeys "{F11}"
 
