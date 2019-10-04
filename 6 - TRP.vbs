@@ -165,7 +165,7 @@ myDate6 = Second(Now)
 'Envio Densidade TRP
 wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001305093240&caption=Densidade%20TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Transporte TRP
-wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001305093240&caption=Transporte%20TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Transporte_TRP.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001405465004&caption=Transporte%20TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Transporte_TRP.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora TRP Turno C
 wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001305093240&caption=Hora%20a%20Hora%20TRP%20Turno%20C&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_TRP_C.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora TRP Turno A
@@ -173,7 +173,7 @@ wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH
 'Envio Hora a Hora TRP Turno B
 wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001305093240&caption=Hora%20a%20Hora%20TRP%20Turno%20B&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_TRP_B.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Caminhões em Atraso TRP
-wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001305093240&caption=Caminhoes%20em%20Atraso%20TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Atraso_TRP.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001405465004&caption=Caminhoes%20em%20Atraso%20TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Atraso_TRP.png?=" & myDate5 & myDate4 & myDate & myDate2
 
 WShell.SendKeys "{F11}"
 
