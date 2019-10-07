@@ -2,58 +2,6 @@
 
 ' Script para timer
 
-nMinutes = 0
-nSeconds = 5
-sMessage = "<font color=white size=+5><b>PARE! O Bot comeÁar· em</b></font>"
-
-' Open a chromeless window with message
-'wsh.echo "Iniciando Bot..."
-
-' script ends here
-
-' supporting function HTABox
-' Author Tom Lavedas, June 2010
-Dim IE, HTA, sCmd, nRnd
-
-  randomize : nRnd = Int(1000000 * rnd)
-  sCmd = "mshta.exe ""javascript:{new " _
-       & "ActiveXObject(""InternetExplorer.Application"")" _
-       & ".PutProperty('" & nRnd & "',window);" _
-       & "window.resizeTo(250,250);" _
-       & "window.moveTo(500,100)}"""
-
-  with CreateObject("WScript.Shell")
-    .Run sCmd, 1, False
-    do until .AppActivate("javascript:{new ") : WSH.sleep 10 : loop
-  end with ' WSHShell
-
-  For Each IE In CreateObject("Shell.Application").windows
-    If IsObject(IE.GetProperty(nRnd)) Then
-      set HTABox = IE.GetProperty(nRnd)
-      IE.Quit
-      HTABox.document.title = "HTABox"
-      HTABox.document.write _
-               "<HTA:Application contextMenu=no border=thin " _
-             & "minimizebutton=no maximizebutton=no sysmenu=no />" _
-             & "<body scroll=no style='background-color:" _
-             & sBgColor & ";font:normal 30pt Arial;" _
-             & "border-Style:inset;border-Width:5px'" _
-             & "onbeforeunload='vbscript:if not done.value then " _
-             & "window.event.cancelBubble=true:" _
-             & "window.event.returnValue=false:" _
-             & "done.value=true:end if'>" _
-             & "<input type=hidden id=done value=false>" _
-             & "<center><span id=msg>&nbsp;</span><br>" _
-             & "<input type=button id=btn1 value=' OK ' "_
-             & "onclick=done.value=true><center></body>"
-      HTABox.btn1.focus
-    End If
-  Next
-
- 
-  
- '---------------------------------------------------------------------------------------
-  'In√≠cio de Script relat√≥rios
 
 ' Cria os objetos a serem manipulados
 Dim wShell
@@ -61,8 +9,8 @@ Set wShell = CreateObject("WScript.Shell")
 wShell.CurrentDirectory = "D:\Apps\BOT_SIMPLEVIEW\reports"
 
 ' Abre o site no navegador
-wShell.Run "abrir.vbs"
-'wShell.Run "chrome.exe http://simplefarm.bpbio.com.br/Login"
+'wShell.Run "abrir.vbs"
+wShell.Run "chrome.exe http://simplefarm.bpbio.com.br/Login"
 'Wscript.Sleep 400
 'wShell.sendkeys "http://simplefarm.bpbio.com.br/Login"
 'wShell.sendkeys "{ENTER}"
