@@ -1,4 +1,80 @@
+'--------------------------------------------------------------------------------------
 
+' Script para timer
+
+nMinutes = 0
+nSeconds = 5
+sMessage = "<font color=white size=+5><b>PARE! O Bot comeÁar· em</b></font>"
+
+' Open a chromeless window with message
+with HTABox("red", 600, 700, 600, 200)
+  .document.title = "SmartLog Bot"
+  .msg.innerHTML = sMessage
+  do until .done.value or (nMinutes + nSeconds < 1)
+    .msg.innerHTML = sMessage & "<br>" & "<font color=white size=+5>" & nMinutes & ":" & Right("0"&nSeconds, 2) & "<br>" _
+                   '& " restantes<br>"
+    wsh.sleep 1000 ' milliseconds
+    nSeconds = nSeconds - 1
+    if nSeconds < 0 then 
+      if nMinutes > 0 then
+        nMinutes = nMinutes - 1
+        nSeconds = 59
+      end if
+    end if
+  loop
+  .done.value = true
+  .close
+end with
+
+'wsh.echo "Iniciando Bot..."
+
+' script ends here
+
+' supporting function HTABox
+' Author Tom Lavedas, June 2010
+Function HTABox(sBgColor, h, w, l, t)
+Dim IE, HTA, sCmd, nRnd
+
+  randomize : nRnd = Int(1000000 * rnd)
+  sCmd = "mshta.exe ""javascript:{new " _
+       & "ActiveXObject(""InternetExplorer.Application"")" _
+       & ".PutProperty('" & nRnd & "',window);" _
+       & "window.resizeTo(" & w & "," & h & ");" _
+       & "window.moveTo(" & l & "," & t & ")}"""
+
+  with CreateObject("WScript.Shell")
+    .Run sCmd, 1, False
+    do until .AppActivate("javascript:{new ") : WSH.sleep 10 : loop
+  end with ' WSHShell
+
+  For Each IE In CreateObject("Shell.Application").windows
+    If IsObject(IE.GetProperty(nRnd)) Then
+      set HTABox = IE.GetProperty(nRnd)
+      IE.Quit
+      HTABox.document.title = "HTABox"
+      HTABox.document.write _
+               "<HTA:Application contextMenu=no border=thin " _
+             & "minimizebutton=no maximizebutton=no sysmenu=no />" _
+             & "<body scroll=no style='background-color:" _
+             & sBgColor & ";font:normal 30pt Arial;" _
+             & "border-Style:inset;border-Width:5px'" _
+             & "onbeforeunload='vbscript:if not done.value then " _
+             & "window.event.cancelBubble=true:" _
+             & "window.event.returnValue=false:" _
+             & "done.value=true:end if'>" _
+             & "<input type=hidden id=done value=false>" _
+             & "<center><span id=msg>&nbsp;</span><br>" _
+             & "<input type=button id=btn1 value=' OK ' "_
+             & "onclick=done.value=true><center></body>"
+      HTABox.btn1.focus
+      Exit Function
+    End If
+  Next
+
+' I can't imagine how this line can be reached, but just in case
+  MsgBox "HTA window not found."
+  wsh.quit
+  End Function 
   
  '---------------------------------------------------------------------------------------
   'In√≠cio de Script relat√≥rios
@@ -87,17 +163,17 @@ myDate6 = Second(Now)
 'Set url = createobject("https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Densidade&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade.png?raw=true?v="&sb)
 
 'Envio Densidade ITT
-'wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Densidade%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Densidade%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Transporte ITT
-'wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001430421797&caption=Transporte%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Transporte_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001430421797&caption=Transporte%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Transporte_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora ITT Turno C
-'wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Hora%20a%20Hora%20ITT%20Turno%20C&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT_C.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Hora%20a%20Hora%20ITT%20Turno%20C&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT_C.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora ITT Turno A
-'wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Hora%20a%20Hora%20ITT%20Turno%20A&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Hora%20a%20Hora%20ITT%20Turno%20A&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Hora a Hora ITT Turno B
-'wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Hora%20a%20Hora%20ITT%20Turno%20B&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT_B.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Hora%20a%20Hora%20ITT%20Turno%20B&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT_B.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio Caminh√µes em Atraso ITT
-'wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001430421797&caption=Caminhoes%20em%20Atraso%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Atraso_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001430421797&caption=Caminhoes%20em%20Atraso%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Atraso_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
 
 WShell.SendKeys "{F11}"
 
