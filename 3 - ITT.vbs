@@ -92,7 +92,7 @@ wShell.Run "abrir.vbs"
 'wShell.sendkeys "{ENTER}"
 
 ' Tempo que ele deve esperar até o site abrir (10 segundos)
-Wscript.Sleep 10000
+Wscript.Sleep 15000
 
 ' Pressiona TAB até chegar no usuário e senha
 
