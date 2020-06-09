@@ -1364,3 +1364,7 @@
 [0609/123414.971:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0609/130315.995:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0609/130337.032:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0609/130414.950:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0609/130414.991:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0609/133316.047:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0609/133337.095:ERROR:crash_report_database_win.cc(469)] failed to stat report
