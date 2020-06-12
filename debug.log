@@ -1944,3 +1944,7 @@
 [0612/130414.925:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0612/133316.086:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0612/133337.127:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0612/133415.030:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0612/133415.103:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0612/140316.042:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0612/140337.099:ERROR:crash_report_database_win.cc(469)] failed to stat report
