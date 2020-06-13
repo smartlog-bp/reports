@@ -2000,3 +2000,7 @@
 [0612/200414.943:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0612/203315.957:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0612/203336.999:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0612/203414.943:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0612/203414.973:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0612/210315.922:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0612/210336.932:ERROR:crash_report_database_win.cc(469)] failed to stat report
