@@ -3530,3 +3530,7 @@
 [0621/100414.861:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0621/103315.843:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0621/103336.823:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0621/103414.826:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0621/103414.844:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0621/110315.749:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0621/110336.794:ERROR:crash_report_database_win.cc(469)] failed to stat report
