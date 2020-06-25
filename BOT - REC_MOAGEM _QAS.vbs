@@ -40,16 +40,16 @@ WShell.SendKeys "{F11}"
 
 Wscript.Sleep 5000
 
-wShell.Run "rec_moa_ITT.bat"
+wShell.Run "rec_moa_ITT_qas.bat"
 
 Wscript.Sleep 21000
 
-wShell.Run "rec_moa_ITB.bat"
+'wShell.Run "rec_moa_ITB.bat"
 
-Wscript.Sleep 26000
+'Wscript.Sleep 26000
 
 
-'wShell.Run "Screenshot_3_Hora_Hora_C.bat"
+wShell.Run "renomear.bat"
 
 'Wscript.Sleep 32000
 
@@ -65,9 +65,9 @@ Wscript.Sleep 26000
 
 'Wscript.Sleep 16000
 
-wShell.Run "Git_Push.bat"
+'wShell.Run "Git_Push.bat"
 
-Wscript.Sleep 12000
+'Wscript.Sleep 12000
 
 'wShell.Run "Bot_Envio_Geral.bat"
 
@@ -89,9 +89,9 @@ myDate6 = Second(Now)
 'Set url = createobject("https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Densidade&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Densidade.png?raw=true?v="&sb)
 
 'Envio recomendacao moagem ITT
-wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-419753322&caption=Recomendação%20Moagem%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/rec_moa_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
+'wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-419753322&caption=Recomendação%20Moagem%20ITT&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/rec_moa_ITT.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio recomendacao moagem ITB
-wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-438521740&caption=Recomendação%20Moagem%20ITB&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/rec_moa_ITB.png?=" & myDate5 & myDate4 & myDate & myDate2
+'wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-438521740&caption=Recomendação%20Moagem%20ITB&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/rec_moa_ITB.png?=" & myDate5 & myDate4 & myDate & myDate2
 
 'Envio Hora a Hora ITT Turno C
 'wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-1001180177176&caption=Hora%20a%20Hora%20ITT%20Turno%20C&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/Hora_Hora_ITT_C.png?=" & myDate5 & myDate4 & myDate & myDate2
