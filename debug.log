@@ -5098,3 +5098,8 @@
 [0628/180715.654:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0628/183315.898:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0628/183336.905:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0628/183414.827:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0628/183414.852:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0628/183715.627:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0628/190315.824:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0628/190336.847:ERROR:crash_report_database_win.cc(469)] failed to stat report
