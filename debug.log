@@ -5939,3 +5939,8 @@
 [0702/053715.674:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0702/060315.794:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0702/060336.824:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0702/060414.753:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0702/060414.795:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0702/060715.617:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0702/063315.906:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0702/063336.919:ERROR:crash_report_database_win.cc(469)] failed to stat report
