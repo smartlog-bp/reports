@@ -7,3 +7,4 @@ git config --global credential.helper store
 git push https://github.com/smartlog-bp/reports
 git push
 
+git config --global -e (faz um estrago)
