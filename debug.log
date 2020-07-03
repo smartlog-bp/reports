@@ -6238,3 +6238,6 @@
 [0703/110715.709:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0703/113315.948:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0703/113336.998:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0703/113414.892:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0703/113414.922:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0703/113715.801:ERROR:crash_report_database_win.cc(469)] failed to stat report
