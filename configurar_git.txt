@@ -4,6 +4,7 @@ git commit --amend --reset-author
 
 esse parece que deu certo:
 git config --global credential.helper store
+GIT PULL
 git push https://github.com/smartlog-bp/reports
 git push
 
