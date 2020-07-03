@@ -65,8 +65,6 @@ wShell.Run "renomear.bat"
 
 'Wscript.Sleep 16000
 
-'wShell.Run "Git_Push.bat"
-
 'Wscript.Sleep 12000
 
 'wShell.Run "Bot_Envio_Geral.bat"
