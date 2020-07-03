@@ -1,6 +1,6 @@
 git config --global user.name smartlog-git2
 git config --global user.email 
-git commit --amend --reset--author
+git commit --amend --reset-author
 
 esse parece que deu certo:
 git config --global credential.helper store
