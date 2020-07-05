@@ -6613,3 +6613,8 @@
 [0705/003715.624:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0705/010315.796:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0705/010336.859:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0705/010414.819:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0705/010414.854:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0705/010715.650:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0705/013315.747:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0705/013336.865:ERROR:crash_report_database_win.cc(469)] failed to stat report
