@@ -51,6 +51,8 @@ Wscript.Sleep 21000
 
 wShell.Run "renomear.bat"
 
+wShell.Run "RENOMEAR_10.bat"
+
 'Wscript.Sleep 32000
 
 'wShell.Run "Screenshot_3_Hora_Hora_A.bat"
