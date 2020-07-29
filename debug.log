@@ -12303,3 +12303,8 @@
 [0729/070715.722:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0729/073315.833:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0729/073336.884:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0729/073414.834:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0729/073414.859:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0729/073715.725:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0729/080315.912:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0729/080336.990:ERROR:crash_report_database_win.cc(469)] failed to stat report
