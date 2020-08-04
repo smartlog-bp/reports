@@ -96,7 +96,7 @@ wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH
 'Envio recomendacao moagem ITB
 wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-438521740&caption=Recomendação%20Moagem%20ITB&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/rec_moa_ITB.png?=" & myDate5 & myDate4 & myDate & myDate2
 'Envio recomendacao moagem TRP
-'wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-438521740&caption=Recomendação%20Moagem%20TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/rec_moa_TRP.png?=" & myDate5 & myDate4 & myDate & myDate2
+wShell.Run "chrome.exe https://api.telegram.org/bot807217173:AAFN5GEAp1raqS7vNoH_svObT3soUep9EHY/sendPhoto?chat_id=-201794038&caption=Recomendação%20Moagem%20TRP&photo=https://raw.githubusercontent.com/smartlog-bp/reports/master/prints/rec_moa_TRP.png?=" & myDate5 & myDate4 & myDate & myDate2
 
 
 'Envio Hora a Hora ITT Turno C
