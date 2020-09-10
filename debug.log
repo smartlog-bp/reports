@@ -25640,3 +25640,9 @@
 [0910/123315.837:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0910/123336.873:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0910/123402.910:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0910/123440.845:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0910/123440.881:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0910/123440.927:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0910/130315.763:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0910/130336.851:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0910/130402.900:ERROR:crash_report_database_win.cc(469)] failed to stat report
