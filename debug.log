@@ -31814,3 +31814,9 @@
 [1010/233315.845:ERROR:crash_report_database_win.cc(498)] failed to stat report
 [1010/233336.913:ERROR:crash_report_database_win.cc(498)] failed to stat report
 [1010/233402.944:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1010/233440.850:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1010/233440.904:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1010/233441.048:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1011/000315.814:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1011/000336.950:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1011/000402.944:ERROR:crash_report_database_win.cc(498)] failed to stat report
