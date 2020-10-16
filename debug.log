@@ -33272,3 +33272,6 @@
 [1016/010315.842:ERROR:crash_report_database_win.cc(498)] failed to stat report
 [1016/010336.884:ERROR:crash_report_database_win.cc(498)] failed to stat report
 [1016/010402.938:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1016/010440.867:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1016/010440.912:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1016/010440.966:ERROR:crash_report_database_win.cc(498)] failed to stat report
